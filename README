@@ -1,0 +1,4 @@
+1. Express no el unico con el cual se pueden crear servidores, En node se puede crear con http.createServer
+2. este metodo http, es un callback que si dispara con unos argumentos Request, y respons
+Request: Es lo que se solicita del url del del sitio web, todo la solicitud a mi web server 
+respon: lo que nuestro servidor le resóndera al cliente
