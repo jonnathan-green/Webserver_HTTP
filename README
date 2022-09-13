@@ -2,3 +2,8 @@
 2. este metodo http, es un callback que si dispara con unos argumentos Request, y respons
 Request: Es lo que se solicita del url del del sitio web, todo la solicitud a mi web server 
 respon: lo que nuestro servidor le resóndera al cliente
+
+86- Request y response 
+
+- Cuando la peticion arroja un mensaje 200 es que este esta funcionando, probar en postman}
+- Para poder crear un archivo csv se necesita el Attachametn y esto se llama de esta manera "res.setHeader('Content-Disposition','attachment; filename=lista.csv')"
