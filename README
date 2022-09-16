@@ -9,4 +9,7 @@ respon: lo que nuestro servidor le resóndera al cliente
 - Para poder crear un archivo csv se necesita el Attachametn y esto se llama de esta manera "res.setHeader('Content-Disposition','attachment; filename=lista.csv')"
 
 88- Introduccion a express
+89- Contenido estatico 
 
+-Para que nuestro archivo html publico se pueda visualizar necesitamos implementar en JS lo view
+- Tener en cuenta que para los archivos html, express cuando se reddireciona el error busca la ruta que tenga el nombre Indes.html
