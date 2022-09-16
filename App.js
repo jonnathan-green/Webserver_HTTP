@@ -4,9 +4,12 @@ const app = express()
 // servir conmtenido estatico
 app.use(express.static('public'))
 
+app.get('/elements', (req, res) => {
+  res.sendFile(__dirname + '/public/elements.html')
+})
 
-app.get('/Hola_jonnathan', (req, res) => {
-  res.send('Home Page')
+app.get('/generic', (req, res) => {
+  res.sendFile(__dirname + '/public/generic.html')
 })
 
 app.get('*', (req, res) => {
