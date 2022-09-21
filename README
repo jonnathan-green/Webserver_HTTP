@@ -3,13 +3,18 @@
 Request: Es lo que se solicita del url del del sitio web, todo la solicitud a mi web server 
 respon: lo que nuestro servidor le resóndera al cliente
 
-87- Request y response 
+87. Request y response 
 
 - Cuando la peticion arroja un mensaje 200 es que este esta funcionando, probar en postman}
 - Para poder crear un archivo csv se necesita el Attachametn y esto se llama de esta manera "res.setHeader('Content-Disposition','attachment; filename=lista.csv')"
 
-88- Introduccion a express
-89- Contenido estatico 
+88. Introduccion a express
+89. Contenido estatico 
 
 -Para que nuestro archivo html publico se pueda visualizar necesitamos implementar en JS lo view
 - Tener en cuenta que para los archivos html, express cuando se reddireciona el error busca la ruta que tenga el nombre Indes.html
+
+91. Handlebars
+
+- Se trabaja con una pagiana semi dinamica, para gtrabjar de manera superficial,
+- Handlebars Trabaja con las carpetas Views
