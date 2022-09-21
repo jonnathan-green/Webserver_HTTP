@@ -18,3 +18,7 @@ respon: lo que nuestro servidor le resóndera al cliente
 
 - Se trabaja con una pagiana semi dinamica, para gtrabjar de manera superficial,
 - Handlebars Trabaja con las carpetas Views
+
+93. Usanado Parciales
+
+- Estos parciales se cran o utilizan al momento que nuestras vistas estan repitiendo la informacion
