@@ -22,3 +22,9 @@ respon: lo que nuestro servidor le resóndera al cliente
 93. Usanado Parciales
 
 - Estos parciales se cran o utilizan al momento que nuestras vistas estan repitiendo la informacion
+
+94. Preparar Webserver para subirlo al hosting
+
+- El paquete dotenv me sirve para establecer las variables de entorno en mi app de node, podemos hacer una archino que sea .env
+- para poder subir la aplicacion al hosting, tambien se debe configurar el package.json en los scrips un commando llamando "START": "Nombfre del archivo" esto le indica a la mayoria de hsting que es el comando para poder levantar o ejecutar la apicacion 
+- No olvidar (Comando Start, y el puerto)

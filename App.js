@@ -1,7 +1,9 @@
 const hbs = require('hbs');
 const express = require('express')
+require('dotenv').config();
 
 const app = express()
+const port = process.env.PORT;
 
 
 // Handlebars
@@ -37,4 +39,6 @@ app.get('*', (req, res) => {
   })
   
 
-app.listen(8080)
+app.listen(port, () =>{
+  console.log(`Mi puesto escucha http://localhost: ${port}`)
+})
